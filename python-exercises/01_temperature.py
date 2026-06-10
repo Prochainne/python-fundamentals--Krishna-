@@ -1,3 +1,4 @@
+# This program converts temperatures between Celsius and Fahrenheit based on user input.
 try:
     temperature= float(input("Enter the temperature: "))
     unit=input("Enter the unit (C for Celsius, F for Fahrenheit): ")
