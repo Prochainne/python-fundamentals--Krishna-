@@ -11,4 +11,4 @@ def fizzbuzz(n,fizz,buzz):
 n=int(input("Enter the number: "))
 fizz=int(input("Enter the fizz number: "))
 buzz=int(input("Enter the buzz number: "))
-fizzbuzz(n,fizz,buzz)
+fizzbuzz(n,fizz,buzz) 
