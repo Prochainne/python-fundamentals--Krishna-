@@ -1,3 +1,5 @@
+"""Phonebook Application with a menu-driven interface. The user can add, remove, 
+search, and display contacts."""
 phonebook = []
 while True:
     print("Menu" \
@@ -23,4 +25,23 @@ while True:
                 break
         else:
             print("Contact not found.")
-    
+    elif choice == "3":
+        name = input("Enter the name of the contact to search for: ")
+        for contact in phonebook:
+            if contact["name"] == name:
+                print(f"Name: {contact['name']}, Phone: {contact['phone']}, Email: {contact['email']}")
+                break
+        else:
+            print("Contact not found.")
+    elif choice == "4":
+        if phonebook:
+            print("All Contacts:")
+            for contact in phonebook:
+                print(f"Name: {contact['name']}, Phone: {contact['phone']}, Email: {contact['email']}")
+        else:
+            print("Phonebook is empty.")
+    elif choice == "5":
+        print("Exiting...")
+        break
+    else:
+        print("Invalid choice. Please try again.")
