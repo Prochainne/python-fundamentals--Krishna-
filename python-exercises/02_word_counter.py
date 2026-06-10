@@ -1,3 +1,6 @@
+"""This program reads a text file and analyzes its content by counting the 
+number of characters, words, and unique words. The results are returned in a 
+dictionary format."""
 def analyze_text(text):
     char_count = 0
     word_count = 0
