@@ -1,1 +1,1 @@
-Write a function `analyze_text(text)` that returns a dictionary with: total characters, total words, and the number of unique words (case-insensitive). Read text from a file named `sample.txt` and print the results.
+Write a function `analyze_text(text)` that returns a dictionary with: total characters, total words, and the number of unique words (case-insensitive). Read text from a file named `sample.txt` and print the results.#
